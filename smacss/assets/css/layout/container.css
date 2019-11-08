@@ -1,0 +1,12 @@
+.l-container {
+	margin: 0 auto;
+	max-width: 550px;
+	min-width: 230px;
+}
+
+.l-horiz-center {
+	left: 50%;
+	position: absolute;
+	top: auto;
+	transform: translateX(-50%);
+}

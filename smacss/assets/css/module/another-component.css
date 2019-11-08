@@ -1,0 +1,16 @@
+.another-component {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.another-component-title {
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.another-component-subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}

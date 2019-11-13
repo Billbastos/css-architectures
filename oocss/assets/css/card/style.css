@@ -1,0 +1,21 @@
+.card-info {
+  border: 1px solid #003388;
+  background: #0099ff;
+  color: #fdfdfd;
+}
+
+.card-info .header,
+.card-info .footer {
+  background: #003388;
+}
+
+.card-error {
+  border: 1px solid #992200;
+  background: #ff3311;
+  color: #fdfdfd;
+}
+
+.card-error .header,
+.card-error .footer {
+  background: #992200;
+}

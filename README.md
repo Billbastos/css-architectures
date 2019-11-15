@@ -1,5 +1,5 @@
 # css-architectures
-Learn CSS architectural types:
+CSS architectural types:
 - SMACSS
 - OOCSS
 - Atomic Design

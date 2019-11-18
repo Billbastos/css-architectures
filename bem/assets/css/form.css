@@ -1,0 +1,22 @@
+.form { 
+  padding: 1rem;
+}
+.form--theme-xmas {
+  background-image: linear-gradient(#dd3300, #6a1a00);  
+}
+.form--simple .form__input {
+  border: none;
+  padding: .5rem;
+  font: 300 13px/18px Helvetica, arial;
+}
+.form--simple .form__submit {
+  border: none;
+  border-radius: 3px;
+  padding: .5rem;
+  font: 700 13px/18px Helvetica, arial;
+}
+.form__submit--disabled {
+  color: #ccc;
+  background-color: #777;
+  cursor: not-allowed;  
+}

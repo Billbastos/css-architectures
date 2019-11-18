@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Page -->
+    <link rel="stylesheet" href="assets/css/page.css" />
+    <!-- Button -->
+    <link rel="stylesheet" href="assets/css/button.css" />
+    <!-- Form -->
+    <link rel="stylesheet" href="assets/css/form.css" />
+
+    <title>BEM (Block, elemet, modifier)</title>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <h1 class="title">BEM - Methodology</h1>
+      </header>
+
+      <main>
+        <p>
+          <strong>Block:</strong> Standalone entity that is meaningful on its own. Examples:
+          header, container, menu, checkbox, input
+        </p>
+
+        <p>
+          <strong>Element:</strong> A part of a block that has no standalone meaning and is
+          semantically tied to its block. Examples: menu item, list item,
+          checkbox caption, header title
+        </p>
+        <p>
+          <strong>Modifier:</strong> A flag on a block or element. Use them to change appearance
+          or behavior. Examples: disabled, highlighted, checked, fixed, size
+          big, color yellow
+        </p>
+
+        <p>Examples:</p>
+
+        <form class="form form--theme-xmas form--simple">
+          <input class="form__input" type="text" />
+          <input class="form__submit form__submit--disabled" type="submit" />
+        </form>
+
+        <br>
+
+        <button class="button">Normal button</button>
+        <button class="button button--state-success">Success button</button>
+        <button class="button button--state-danger">Danger button</button>
+
+        <p>
+          <a href="https://cssguidelin.es/#bem-like-naming">About naming</a>
+        </p>
+      
+      </main>
+    </div>
+  </body>
+</html>
